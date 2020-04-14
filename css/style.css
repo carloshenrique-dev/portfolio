@@ -135,13 +135,14 @@ header{
 
 .portfolio{
     position: relative;
+    display: block;
     overflow: auto;
     align-items: center;    
     margin-left: auto;
     margin-right: auto;   
     margin-top: 24px;
     margin-bottom: 16px; 
-    width: 25em;
+    width: 400px;
     height: 23em;
     border-radius: 26px;  
     background-image: url(../image/eu.jpg);
@@ -156,6 +157,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
+    display: block;
     font-family: miso-bold;
     font-style: normal;
     font-size: 40px;
@@ -166,6 +168,7 @@ h2{
 }
 
 h3{
+    display: block;
     margin-top: 45px;
     width: 1200px;
     margin-left: auto;
@@ -183,6 +186,7 @@ h3{
 }
 
 p{
+    display: block;
     position: relative;
     width: 1200px;
     margin-left: auto;
@@ -197,9 +201,10 @@ p{
 }
 
 .card-container{
+    display: block;
     position: relative;
     display: grid;
-    width: 100%;
+    width: 1200px;
     height: 100%; 
     margin-left: auto;
     margin-right: auto;
