@@ -137,8 +137,8 @@ header{
     position: relative;
     display: block;
     overflow: auto;
-    justify-content: center;
-    align-items: center;    
+    align-items: center;
+    justify-content: center;    
     margin-left: auto;
     margin-right: auto;   
     margin-top: 24px;
@@ -146,18 +146,19 @@ header{
     width: 400px;
     height: 400px;
     border-radius: 26px;  
-    background-image: url(../image/eu.jpg);
+    background-image: url(../image/eu.jpg);  
 }
 
 .conteudo{
     display: block;
-    position: relative;    
+    position: relative;
+    display: grid;
     width: 1200px;
     height: 100%; 
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 29px;
-    overflow: auto;    
+    overflow: auto;      
     justify-content: center;
 }
 
@@ -208,6 +209,21 @@ p{
     line-height: 29px;
     text-align: center;    
     color: #161B3D;
+}
+
+.card-container{
+    display: block;
+    position: relative;
+    display: grid;
+    width: 1200px;
+    height: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29px;
+    overflow: auto;   
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 20px;    
+    justify-content: center;
 }
 
 .theme{
