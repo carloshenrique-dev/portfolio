@@ -178,6 +178,7 @@ p{
 .card-container{
     position: relative;
     display: grid;
+    width: 1800px;    
     grid-template-columns: repeat(4,auto);
     grid-gap: 20px;
     margin: 40px;
