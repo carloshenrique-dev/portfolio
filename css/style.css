@@ -3,6 +3,7 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    position: relative;
 }
 
 a{
@@ -133,6 +134,7 @@ header{
 }
 
 .portfolio{
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;   
@@ -146,6 +148,7 @@ header{
 
 
 h2,h3{
+    position: relative;
     font-family: miso-bold;
     font-style: normal;
     font-size: 40px;
@@ -162,6 +165,7 @@ h3{
 }
 
 p{
+    position: relative;
     font-family: miso-bold;
     font-style: normal;    
     font-size: 26px;
@@ -172,6 +176,7 @@ p{
 }
 
 .card-container{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(4,auto);
     grid-gap: 20px;
