@@ -7,12 +7,49 @@
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 body{
+    --accent-color: #ffb000;
+    --button-text-color: var(--background-color);
+    --transition-delay: 1s;
+
     margin: 0px;
+    background-color: white;
+    color: #161B3D;;
 }
+
+.dark-mode {
+    --accent-color: #6892fc;    
+
+    background-color: black;
+    color: white;   
+}
+
+.dark-mode-button {        
+    background-color: var(--accent-color);
+    color: var(--button-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .3em;
+    border: none;
+    outline: none;
+    transition: var(--transition-delay);
+    transform: scale(1);
+    font-family: miso-bold;
+}
+  
+.dark-mode-button:hover,
+.dark-mode-button:focus {
+    transform: scale(1.1);
+}
+
 
 @font-face{
     font-family: 'miso-bold';
@@ -60,6 +97,14 @@ header{
     background-color: #404040;
 }
 
+#button-container{
+    top: 12px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    float: left;
+    height: 60px;
+}
+
 #header-container{
     position: relative;
     width: 1200px;
@@ -103,6 +148,10 @@ header{
     background-image: url(../image/icon-whatsapp.png);
 }
 
+.icon-github{
+    background-image: url(../image/icon-github.png);
+}
+
 .text{
     position: relative;
     font-family: Arial;
@@ -117,7 +166,6 @@ header{
     text-decoration: none;
     color: #ffff;
 }
-
 
 .title{
     position: relative;
@@ -175,7 +223,6 @@ h2{
     line-height: 45px;
     margin-bottom: 10px;
     text-align: center;    
-    color: #161B3D;
 }
 
 h3{
@@ -184,8 +231,7 @@ h3{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    overflow: auto;
-    color: #161B3D;
+    overflow: auto;    
     text-decoration: underline;
     position: relative;
     font-family: miso-bold;
@@ -208,7 +254,6 @@ p{
     font-size: 26px;
     line-height: 29px;
     text-align: center;    
-    color: #161B3D;
 }
 
 .card-container{
@@ -275,5 +320,5 @@ p{
     40%, 60% {
       transform: translate3d(4px, 0, 0);
     }
-  }
+}
 

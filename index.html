@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Carlos Henrique | c.tarabal25@gmail.com</title>
     <link href="css/style.css" rel="stylesheet"  type="text/css">
-    <link rel="icon" type="imagen/png" href="./image/avatar.png">
+    <link href="css/background.css" rel="stylesheet"  type="text/css">
+    <link href="css/button.css" rel="stylesheet"  type="text/css">
+    <link rel="icon" type="imagem/png" href="./image/avatar.png">
 </head>
 <body>
     <header>
-        <div id="header-container">
+        <div id="button-container">
+        <button class="dark-mode-button" id="button" onclick="myFunction();funcao();">        
+            Light Mode
+        </button>
+        </div>
+        <div id="header-container">      
+        
             <div id="title-carlos" class="title">Carlos Henrique</div>
 
             <div id="icons-container-right">
@@ -24,13 +32,21 @@
                 <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511985576404" target="_blank">
                     <div class="icon icon-whatsapp"></div>
                 </a>
+                <a href="https://github.com/carloshenrique-dev" target="_blank">
+                    <div class="icon icon-github"></div>
+                </a>
+                
             </div>
         </div>
     </header>
-    <main>
+    <main>            
         
-        <div class="conteudo">
-            <a href="https://github.com/carloshenrique-dev" target="_blank">
+
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+            
+        <div class="conteudo">            
                 <div class="portfolio"></div>
             </a>
 
@@ -40,6 +56,8 @@
             <p>Comecei meus estudos no desenvolvimento Front-end, com HTML, CSS e JavaScript,</p>    
             <p>e atualmente estou estudando a Stack com NodeJS, ReactJS e React Native.</p>
         </div>
+
+
         <h3>Portfólio</h3>
         
         <div class="card-container">
@@ -84,11 +102,13 @@
                     <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511985576404" target="_blank">
                         <div class="icon icon-whatsapp"></div>
                     </a>
+                    <a href="https://github.com/carloshenrique-dev" target="_blank">
+                        <div class="icon icon-github"></div>
+                    </a>
                 </div>
             </div>
         </div>
-
     </footer>
-
 </body>
+<script src="js/main.js"></script>
 </html>
