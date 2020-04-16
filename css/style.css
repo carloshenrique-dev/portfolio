@@ -123,9 +123,12 @@ header{
 }
 
 #icons-container-right{
-    position: relative;
+    position: relative;    
     top: 8px;
     float: right;
+    --transition-delay: 1s;
+    transition: var(--transition-delay);
+    transform: scale(1);
 }
 
 .icon-facebook{
@@ -144,8 +147,33 @@ header{
     background-image: url(../image/icon-whatsapp.png);
 }
 
-.icon-github{
-    background-image: url(../image/icon-github.png);
+.icon-github{   
+    background-image: url(../image/icon-github.png);   
+}
+
+.icon-linkedin:hover,
+.icon-linkedin:focus {
+    transform: scale(1.1);
+}
+
+.icon-email:hover,
+.icon-email:focus {
+    transform: scale(1.1);
+}
+
+.icon-whatsapp:hover,
+.icon-whatsapp:focus {
+    transform: scale(1.1);
+}
+
+.icon-github:hover,
+.icon-github:focus {
+    transform: scale(1.1);
+}
+
+.icon-facebook:hover,
+.icon-facebook:focus {
+    transform: scale(1.1);
 }
 
 .text{
