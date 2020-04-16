@@ -92,17 +92,18 @@ footer{
 
 header{
     position: relative;
-    width: 100%;
+	width: 100%;
+	height: 60px;
     background-color: #404040;
 }
 
 
 #header-container{
     position: relative;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;    
+	width: 1200px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;    
     background-color: #404040;
 }
 
@@ -116,12 +117,12 @@ header{
 
 .icon-last{
     margin-right: 0px;
+    float: right;
 }
 
 #icons-container-right{
     position: relative;
     top: 8px;
-    margin-bottom: 12px;
     float: right;
 }
 
@@ -143,6 +144,10 @@ header{
 
 .icon-github{
     background-image: url(../image/icon-github.png);
+}
+
+img{
+    border-style: none;
 }
 
 .text{
