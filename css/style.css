@@ -92,7 +92,7 @@ footer{
 
 header{
     position: relative;
-    width: 100%;    
+    width: 100%;
     background-color: #404040;
 }
 
@@ -100,9 +100,9 @@ header{
 #header-container{
     position: relative;
     width: 1200px;
-    height: 60px;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;    
     background-color: #404040;
 }
 
@@ -121,6 +121,7 @@ header{
 #icons-container-right{
     position: relative;
     top: 8px;
+    margin-bottom: 12px;
     float: right;
 }
 
@@ -164,7 +165,7 @@ header{
     float: left;
     top: 10px;    
     margin-right: 210px;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
     float: left;   
 }
 
@@ -173,7 +174,7 @@ header{
     font-family: miso-bold;
     color: #ffffff;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 #title-carlos{
