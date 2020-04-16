@@ -259,6 +259,10 @@ p{
     text-align: center;    
 }
 
+img{ 
+	border-style: none;
+}
+
 .card-container{
     display: block;
     position: relative;
