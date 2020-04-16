@@ -25,7 +25,7 @@ body{
     --accent-color: white;    
     width: 100%;
     background-color: black;
-    color: black;   
+    color: white;   
 }
 
 .dark-mode-button {        
@@ -94,20 +94,17 @@ footer{
 header{
     position: relative;
 	width: 100%;
-    height: 60px;
-    background: radial-gradient(ellipse at bottom, #404040 0%, #404040 100%);
-    overflow: hidden;
+    height: 60px;    
     background-color: #404040;
 }
-
 
 #header-container{
     position: relative;
 	width: 1200px;
 	height: 60px;
 	margin-left: auto;
-	margin-right: auto;    
-    background-color: #404040;
+    margin-right: auto;  
+    background-color: #404040;  
 }
 
 .icon{
@@ -163,7 +160,7 @@ header{
 #button{
     position: relative;
     float: left;
-    top: 10px;
+    margin-top: 24px;
     margin-left: 10px;             
 }
 
