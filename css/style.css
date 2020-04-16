@@ -97,13 +97,6 @@ header{
     background-color: #404040;
 }
 
-#button-container{
-    top: 12px;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    float: left;
-    height: 60px;
-}
 
 #header-container{
     position: relative;
@@ -167,6 +160,15 @@ header{
     color: #ffff;
 }
 
+#button{
+    position: relative;
+    float: left;
+    top: 10px;    
+    margin-right: 210px;
+    margin-bottom: 5px;
+    float: left;   
+}
+
 .title{
     position: relative;
     font-family: miso-bold;
@@ -177,6 +179,7 @@ header{
 
 #title-carlos{
     top: 12px;
+    margin-left: 210px;
     float: left;
     text-transform: uppercase;
 }
