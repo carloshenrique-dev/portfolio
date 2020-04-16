@@ -16,15 +16,16 @@ body{
     --transition-delay: 1s;
 
     margin: 0px;
+    width: 100%;
     background-color: white;
     color: #161B3D;;
 }
 
 .dark-mode {
-    --accent-color: #6892fc;    
-
+    --accent-color: white;    
+    width: 100%;
     background-color: black;
-    color: white;   
+    color: black;   
 }
 
 .dark-mode-button {        
@@ -141,10 +142,6 @@ header{
     background-image: url(../image/icon-whatsapp.png);
 }
 
-.icon-github{
-    background-image: url(../image/icon-github.png);
-}
-
 img{
     border-style: none;
 }
@@ -168,7 +165,7 @@ img{
     position: relative;
     float: left;
     top: 10px;
-    margin-left: 4px;             
+    margin-left: 10px;             
 }
 
 .title{
